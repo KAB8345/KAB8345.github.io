@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kingc ’blog.</title>
+  
+  
+  <link href="http://kingc.pro/atom.xml" rel="self"/>
+  
+  <link href="http://kingc.pro/"/>
+  <updated>2021-03-05T03:51:55.430Z</updated>
+  <id>http://kingc.pro/</id>
+  
+  <author>
+    <name>Kingc</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Firwall</title>
+    <link href="http://kingc.pro/2021/03/05/firwall/"/>
+    <id>http://kingc.pro/2021/03/05/firwall/</id>
+    <published>2021-03-05T03:32:26.000Z</published>
+    <updated>2021-03-05T03:51:55.430Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;firewalld 、firewall-cmd 、firewall-offline-cmd它们Python脚本，通过定义的在/usr/lib/firewalld下面的xml配置信息，在启动时自动载入默认iptables配置，并应用到系统中，当使用firewalld-cmd添加防火墙规则时，它实际是转换成iptables规则后，在应用到系统中&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="http://kingc.pro/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kali-install-Chrome</title>
+    <link href="http://kingc.pro/2021/03/05/Kali-install-Chrome/"/>
+    <id>http://kingc.pro/2021/03/05/Kali-install-Chrome/</id>
+    <published>2021-03-05T02:59:49.000Z</published>
+    <updated>2021-03-05T03:31:10.838Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Kali-install-Chrome-Browser&quot;&gt;&lt;a href=&quot;#Kali-install-Chrome-Browser&quot; class=&quot;headerlink&quot; title=&quot;Kali install Chrome Browser&quot;&gt;&lt;/a&gt;Kali install Chrome Browser&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="Kali" scheme="http://kingc.pro/tags/Kali/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jenkins利用探索</title>
+    <link href="http://kingc.pro/2021/03/03/Jenkins/"/>
+    <id>http://kingc.pro/2021/03/03/Jenkins/</id>
+    <published>2021-03-03T13:11:17.000Z</published>
+    <updated>2021-03-05T03:31:25.748Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Jenkins利用探索&lt;br&gt;</summary>
+    
+    
+    
+    
+    <category term="漏洞利用" scheme="http://kingc.pro/tags/%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://kingc.pro/2021/03/03/hello-world/"/>
+    <id>http://kingc.pro/2021/03/03/hello-world/</id>
+    <published>2021-03-03T12:38:23.605Z</published>
+    <updated>2021-03-05T03:51:57.724Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

