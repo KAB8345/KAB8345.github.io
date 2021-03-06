@@ -6,7 +6,7 @@
   <link href="http://kingc.pro/atom.xml" rel="self"/>
   
   <link href="http://kingc.pro/"/>
-  <updated>2021-03-06T04:02:54.495Z</updated>
+  <updated>2021-03-06T10:07:42.799Z</updated>
   <id>http://kingc.pro/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>go交叉build</title>
+    <title>Hikvision-Exploit</title>
+    <link href="http://kingc.pro/2021/03/06/Hikvision/"/>
+    <id>http://kingc.pro/2021/03/06/Hikvision/</id>
+    <published>2021-03-06T09:42:02.000Z</published>
+    <updated>2021-03-06T10:07:42.799Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hikvision-Exploit (海康威视)&lt;br&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kali-install-Google-Pinyin</title>
+    <link href="http://kingc.pro/2021/03/06/Kali-install-Google-Pinyin/"/>
+    <id>http://kingc.pro/2021/03/06/Kali-install-Google-Pinyin/</id>
+    <published>2021-03-06T07:52:45.000Z</published>
+    <updated>2021-03-06T08:06:33.142Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt; Kali install Google-Pinyin&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Kali" scheme="http://kingc.pro/tags/Kali/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go交叉编译</title>
     <link href="http://kingc.pro/2021/03/06/go-build/"/>
     <id>http://kingc.pro/2021/03/06/go-build/</id>
     <published>2021-03-06T03:35:54.000Z</published>
-    <updated>2021-03-06T04:02:54.495Z</updated>
+    <updated>2021-03-06T07:44:00.912Z</updated>
     
     
     <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
@@ -106,10 +138,10 @@
     <link href="http://kingc.pro/2021/03/05/Kali-install-Chrome/"/>
     <id>http://kingc.pro/2021/03/05/Kali-install-Chrome/</id>
     <published>2021-03-05T02:59:49.000Z</published>
-    <updated>2021-03-06T04:02:10.408Z</updated>
+    <updated>2021-03-06T09:22:02.563Z</updated>
     
     
-    <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;Kali install Chrome Browser&lt;/p&gt;</summary>
     
     
     
