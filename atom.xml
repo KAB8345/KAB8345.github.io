@@ -6,7 +6,7 @@
   <link href="http://kingc.pro/atom.xml" rel="self"/>
   
   <link href="http://kingc.pro/"/>
-  <updated>2021-03-27T06:29:30.336Z</updated>
+  <updated>2021-03-27T06:33:13.447Z</updated>
   <id>http://kingc.pro/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>mysql-exploit</title>
+    <title>mysql exploit</title>
     <link href="http://kingc.pro/2021/03/27/mysql/"/>
     <id>http://kingc.pro/2021/03/27/mysql/</id>
     <published>2021-03-27T06:13:22.000Z</published>
-    <updated>2021-03-27T06:29:30.336Z</updated>
+    <updated>2021-03-27T06:33:13.447Z</updated>
     
     
     <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
@@ -55,15 +55,13 @@
     <link href="http://kingc.pro/2021/03/27/Windows/"/>
     <id>http://kingc.pro/2021/03/27/Windows/</id>
     <published>2021-03-27T06:11:36.000Z</published>
-    <updated>2021-03-27T06:27:49.283Z</updated>
+    <updated>2021-03-27T06:33:04.099Z</updated>
     
     
     <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
     
     
     
-    
-    <category term="n" scheme="http://kingc.pro/tags/n/"/>
     
   </entry>
   
@@ -106,7 +104,7 @@
     <link href="http://kingc.pro/2021/03/27/thinkphp/"/>
     <id>http://kingc.pro/2021/03/27/thinkphp/</id>
     <published>2021-03-27T05:18:23.000Z</published>
-    <updated>2021-03-27T05:19:04.004Z</updated>
+    <updated>2021-03-27T06:32:33.892Z</updated>
     
     
     <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
